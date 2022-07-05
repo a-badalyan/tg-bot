@@ -1,0 +1,37 @@
+{
+  "name": "tg-bot",
+  "version": "1.0.0",
+  "description": "tg-bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-badalyan/tg-bot.git"
+  },
+  "author": "a.badalyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-badalyan/tg-bot/issues"
+  },
+  "homepage": "https://github.com/a-badalyan/tg-bot#readme",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^0.27.2",
+    "chardet": "^1.4.0",
+    "fast-xml-parser": "^4.0.8",
+    "iconv": "^3.0.1",
+    "pg-promise": "^10.11.1",
+    "telegraf": "^4.8.5",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.3",
+    "utf8": "^3.0.0",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "@types/iconv": "^3.0.1",
+    "@types/node": "^17.0.42",
+    "@types/utf8": "^3.0.1"
+  }
+}
